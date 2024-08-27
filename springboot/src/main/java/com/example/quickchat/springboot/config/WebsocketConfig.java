@@ -13,7 +13,7 @@ public class WebsocketConfig implements WebSocketMessageBrokerConfigurer{
     public void configureMessageBroker(MessageBrokerRegistry registry) {
         // creating prefixes 
         registry.setApplicationDestinationPrefixes("/app");
-        registry.enableStompBrokerRelay("/chatroom", "/user");
+        registry.enableSimpleBroker("/chatroom", "/user");
         registry.setUserDestinationPrefix("/user");
     }
 
