@@ -1,1 +1,4 @@
 Quick Chat Application
+
+npm start
+mvn spring-boot:run
