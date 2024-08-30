@@ -5,3 +5,7 @@ npm start
 
 BE terminal command:
 mvn spring-boot:run
+
+Current functionality:
+end to end communication with a single group of users
+end to end communication with a single user 
