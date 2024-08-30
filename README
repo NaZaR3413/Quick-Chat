@@ -1,4 +1,7 @@
 Quick Chat Application
 
+FE terminal command:
 npm start
+
+BE terminal command:
 mvn spring-boot:run
